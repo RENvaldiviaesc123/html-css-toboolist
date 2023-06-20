@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <header>
-        <img src="./img/Toboolist-logo.jpg" alt="Logo Toboolist" id="logo_head" >
-    </header>
-    <main>
 
-    </main>
+<body id="main_container">
+    <header>
+        <div id="logo_head">
+            <img src="./img/Toboolist-logo.jpg" alt="Logo Toboolist">
+        </div>
+    </header>
+    <div id="background_page">
+        <main>
+            <div id="background_page"></div>
+            <div class="buttoncontainer blueback">
+                <p>Add Task</p>
+            </div>
+            <div class="buttoncontainer whiteback">
+                <p>Add Section</p>
+            </div>
+            <hr>
+            <h3 class="list_content">&#9660; New Task</h3>
+            <div class="list_content">
+                <p><span class="check">&#10004;</span> Quarterly Newsletter</p><div class="button_type edit"><p>Editorial</p></div>
+            </div>
+            <h3 class="list_content">&#9660; Today</h3>
+            <div class="list_content">
+                <p><span class="check">&#10004;</span> Recruiting blog post</p><div class="button_type edit"><p>Editorial</p></div>
+                <p><span class="check">&#10004;</span> Mobile app launch</p><div class="button_type goal"><p>Q1 Goals</p></div>
+                <p><span class="ex">&#8855;</span> Interview John H.</p><div class="button_type recruit"><p>Recruiting</p></div>
+                <p><span class="check">&#10004;</span> Summit update to mobile storefronts</p><div class="button_type mob"><p>Mobile</p></div>
+            </div>
+            <h3 class="list_content">&#9660; Upcoming</h3>
+            <div class="list_content">
+                <p><span class="ex">&#8855;</span> Schedule meeting with Alex</p>
+                <p><span class="check">&#10004;</span> Homepage refresh</p><div class="button_type web"><p>Website</p></div>
+                <p><span class="check">&#10004;</span> Onboard new Sales team members</p><div class="button_type sale"><p>Sales</p></div>
+                <p><span class="check">&#10004;</span> Review editorial calendar</p><div class="button_type edit"><p>Editorial</p></div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>

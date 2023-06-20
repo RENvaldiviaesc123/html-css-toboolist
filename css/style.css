@@ -3,6 +3,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #logo_head {
     background-color: white;
+}
+#main_container {
+    background-color: rgb(179, 179, 176);
+}
+#background_page {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+    padding-top:small;
+    border-top: 10%;
+}
+.check {
+    color: green;
+}
+.ex {
+    color: red;
+}
+.buttoncontainer {
+    border-radius: 20px;
+    border-style: ridge;
+    width: fit-content;
+    margin-top: auto;
+    
+}
+.blueback {
+    background-color: aqua;
+    border-color: aqua ;
+    box-sizing: border-box;
+}
+.whiteback {
+    background-color: white;
+}
+.list_content {
+    margin: 0px 20px;
+    border-radius: 20px;
+}
+.button_type  {
+    border-radius: 20px;
+    width:min-content;
+    margin-top: auto;
+    font-size: small;
+}
+.edit  {
+    background-color: rgb(64, 66, 201);
+    color: white;
+}
+.goal  {
+    background-color: rgb(133, 9, 106);
+    color: white;
+}
+.mob  {
+    background-color: rgb(216, 140, 40);
+    color: white;
+}
+.recruit  {
+    background-color: rgb(17, 187, 145);
+    color: white;
+}
+.sale {
+    background-color: rgb(17, 187, 68);
+    color: white;
+}
+.web {
+    background-color: rgb(176, 52, 201);
+    color: white;
 }
